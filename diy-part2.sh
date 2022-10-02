@@ -17,5 +17,5 @@ rm package/base-files/files/etc/banner
 echo " _   _ ___        ___ _____ _" >> package/base-files/files/etc/banner
 echo "| | | (_) \      / (_)  ___(_)      Compiled by Long_C" >> package/base-files/files/etc/banner
 echo "| |_| | |\ \ /\ / /| | |_  | | -------------------------------" >> package/base-files/files/etc/banner
-echo "|  _  | | \ V  V / | |  _| | | Lean's OpenWrt, %C" >> 1.txt
+echo "|  _  | | \ V  V / | |  _| | | Lean's OpenWrt, %C" >> package/base-files/files/etc/banner
 echo "|_| |_|_|  \_/\_/  |_|_|   |_| -------------------------------" >> package/base-files/files/etc/banner
