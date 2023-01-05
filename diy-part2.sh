@@ -24,3 +24,10 @@ cd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 cd ../..
+
+rm -r target/linux/ramips/
+cd tmp/
+git clone https://github.com/padavanonly/immortalwrt.git
+cp -r ./immortalwrt/target/linux/ramips/ ../target/linux/ramips/
+rm -r immortalwrt/
+cd ..
