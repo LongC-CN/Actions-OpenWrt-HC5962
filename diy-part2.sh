@@ -23,3 +23,4 @@ echo "|_| |_|_|  \_/\_/  |_|_|   |_| -------------------------------" >> package
 cd package/lean
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+cd ../..
