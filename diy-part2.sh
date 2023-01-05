@@ -27,12 +27,12 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 cd ../..
 
 #将openwrt的开源hwnat替换为mtk sdk版本
-rm -r target/linux/ramips/
-cd tmp/
-git clone https://github.com/padavanonly/immortalwrt.git
-cp -r ./immortalwrt/target/linux/ramips/ ../target/linux/ramips/
-rm -r immortalwrt/
-cd ..
+#rm -r target/linux/ramips/
+#cd tmp/
+#git clone https://github.com/padavanonly/immortalwrt.git
+#cp -r ./immortalwrt/target/linux/ramips/ ../target/linux/ramips/
+#rm -r immortalwrt/
+#cd ..
 
 #克隆HalloWorld
 cd package/lean/
