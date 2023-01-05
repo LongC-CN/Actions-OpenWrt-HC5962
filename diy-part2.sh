@@ -31,3 +31,8 @@ git clone https://github.com/padavanonly/immortalwrt.git
 cp -r ./immortalwrt/target/linux/ramips/ ../target/linux/ramips/
 rm -r immortalwrt/
 cd ..
+
+cd package/lean/
+git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依
+git clone https://github.com/jerrykuku/luci-app-vssr.git
+cd ../../
