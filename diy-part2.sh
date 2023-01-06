@@ -15,7 +15,8 @@ sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generat
 # openwrt banner
 rm package/base-files/files/etc/banner
 echo " _   _ ___        ___ _____ _" >> package/base-files/files/etc/banner
-echo "| | | (_) \      / (_)  ___(_)      Compiled by Long_C" >> package/base-files/files/etc/banner
+echo "| | | (_) \      / (_)  ___(_)      Compiled by Long_C-CN
+" >> package/base-files/files/etc/banner
 echo "| |_| | |\ \ /\ / /| | |_  | | -------------------------------" >> package/base-files/files/etc/banner
 echo "|  _  | | \ V  V / | |  _| | | Lean's OpenWrt, %C" >> package/base-files/files/etc/banner
 echo "|_| |_|_|  \_/\_/  |_|_|   |_| -------------------------------" >> package/base-files/files/etc/banner
