@@ -8,7 +8,7 @@
 
 密码:`password`
 
->插件列表
+>插件列表(详细请看packages.txt)
 >
 >Turbo ACC 网络加速(全功能)
 >
