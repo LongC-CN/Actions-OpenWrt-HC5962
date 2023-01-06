@@ -22,8 +22,9 @@ echo "|_| |_|_|  \_/\_/  |_|_|   |_| -------------------------------" >> package
 
 #替换agron为官方git版
 cd package/lean/
-rm -rf luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+git clone https://github.com/kenzok78/luci-theme-argonne
+#rm -rf luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 cd ../../
 
 #将openwrt的开源hwnat替换为mtk sdk版本
