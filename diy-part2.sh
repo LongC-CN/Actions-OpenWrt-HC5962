@@ -21,11 +21,11 @@ echo "|  _  | | \ V  V / | |  _| | | Lean's OpenWrt, %C" >> package/base-files/f
 echo "|_| |_|_|  \_/\_/  |_|_|   |_| -------------------------------" >> package/base-files/files/etc/banner
 
 #替换agron为官方git版
-cd package/lean/
-git clone https://github.com/kenzok78/luci-theme-argonne
+#cd package/lean/
+#git clone https://github.com/kenzok78/luci-theme-argonne
 #rm -rf luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
-cd ../../
+#cd ../../
 
 #将openwrt的开源hwnat替换为mtk sdk版本
 #rm -r target/linux/ramips/
@@ -36,7 +36,8 @@ cd ../../
 #cd ..
 
 #克隆HalloWorld
-cd package/lean/
-git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
-git clone https://github.com/jerrykuku/luci-app-vssr.git
-cd ../../
+#cd package/lean/
+#git clone https://github.com/jerrykuku/lua-maxminddb.git  #git lua-maxminddb 依赖
+#git clone https://github.com/jerrykuku/luci-app-vssr.git
+#cd ../../
+##更改至https://github.com/LongC-CN/AutoBuild-Packages
