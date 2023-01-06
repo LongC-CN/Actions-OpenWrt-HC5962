@@ -2,7 +2,7 @@
 config core 'main'
 	option resourcebase '/luci-static/resources'
 	option lang 'zh_cn'
-	option mediaurlbase '/luci-static/argon'
+	option mediaurlbase '/luci-static/argonne'
 
 config extern 'flash_keep'
 	option uci '/etc/config/'
@@ -24,11 +24,11 @@ config internal 'ccache'
 	option enable '1'
 
 config internal 'themes'
-	option Argon '/luci-static/argon'
+        option Argonne '/luci-static/argonne'
 	option Bootstrap '/luci-static/bootstrap'
 
 config internal 'diag'
 	option dns 'openwrt.org'
-	option ping 'openwrt.org'
+	option ping 'baidu.com'
 	option route 'openwrt.org'
 
