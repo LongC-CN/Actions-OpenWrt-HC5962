@@ -16,7 +16,7 @@
 >
 >FTP 服务器
 >
->Hello World(全功能)
+>Passwall(全功能)
 >
 >WatchCat
 >
