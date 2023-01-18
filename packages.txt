@@ -1,24 +1,27 @@
 仅统计luci-app luci-theme分区内的包
+住：*为默认选中的
 
-luci-app-accesscontrol
-luci-app-arpbind
-luci-app-autoreboot
-luci-app-autoupdate (依赖autoupdate)
-luci-app-ddns
-luci-app-filetransfer
-luci-app-firewall
+*luci-app-accesscontrol
+*luci-app-arpbind
+*luci-app-autoreboot
+*luci-app-ddns
+*luci-app-filetransfer
+*luci-app-firewall
 luci-app-frpc
-luci-app-nlbwmon
+*luci-app-nlbwmon
+luci-app-passwall
+  -全功能
 luci-app-ttyd
-luci-app-turboacc
-luci-app-upnp
-luci-app-vlmcsd
-luci-app-vsftpd
-luci-app-vssr
+*luci-app-turboacc
+	-全功能
+*luci-app-upnp
+*luci-app-vlmcsd
+*luci-app-vsftpd
 luci-app-watchcat
-luci-app-wol
+*luci-app-wol
 luci-app-zerotier
-luci-theme-argonne (luci-theme-argon改名，为了编译方便)
-luci-theme-bootstrap
+luci-theme-argon-1806
+*luci-theme-bootstrap
 
 Extra packages  ---> ipv6helper(IPV6支持)
+kmod-fs-exfat
