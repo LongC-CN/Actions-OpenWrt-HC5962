@@ -35,5 +35,7 @@
 >带宽监视
 >
 >ipv6helper(IPV6支持)
+>
+>automount(USB挂载)
 
 - **感谢** [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)和[coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
