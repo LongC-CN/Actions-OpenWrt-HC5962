@@ -18,4 +18,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #echo 'src-git LongC https://github.com/LongC-CN/AutoBuild-Packages' >>feeds.conf.default
 #echo 'src-git temp https://github.com/Hyy2001X/AutoBuild-Packages' >>feeds.conf.default
-echo 'src-git NueXini https://github.com/NueXini/NueXini_Packages.git' >>feeds.conf.default
+echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
