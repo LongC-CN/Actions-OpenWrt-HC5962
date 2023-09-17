@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
 # openwrt banner (无法使用file大法来修改，变量不起作用)
 rm package/base-files/files/etc/banner
 echo " _   _ ___        ___ _____ _" >> package/base-files/files/etc/banner
