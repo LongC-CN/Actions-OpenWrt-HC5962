@@ -20,3 +20,7 @@
 #echo 'src-git temp https://github.com/Hyy2001X/AutoBuild-Packages' >>feeds.conf.default
 #echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
 #echo 'src-git NueXini https://github.com/NueXini/NueXini_Packages.git' >>feeds.conf.default
+
+#修改tag
+git tags >> tags.logs
+git checkout v21.02.6
